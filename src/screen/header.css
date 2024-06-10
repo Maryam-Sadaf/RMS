@@ -1,0 +1,323 @@
+body, ul {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Style the header */
+  header {
+    background: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    padding: 10px;
+  }
+  
+  /* Style the logo */
+  .logo img {
+    width: 159px;
+height: 50px;
+top: 13px;
+margin-left: 50px;
+
+    /* height: 40px;
+    width: auto;
+    margin-left: 40px; */
+  }
+  
+  /* Style the navigation links */
+  nav ul {
+    list-style-type: none;
+    display: flex;
+  }
+  
+  nav ul li {
+    margin-right: 10px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+     color: #000000;
+    font-size:19px;
+    font-weight: 700;
+    padding: 10px;
+    position: relative;
+    transition: all 0.3s ease;
+  }
+  
+  nav ul li a:hover {
+    color: grey;
+  }
+  
+  /* Style the login button */
+  .login button {
+    background: #FFE500;
+    color:black;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+    margin-right: 40px;
+  }
+  /* Responsive styles */
+  @media (max-width: 768px) {
+    /* Stack the logo and navigation on smaller screens */
+    header {
+      flex-direction: column;
+      align-items: center;
+    }
+    
+    .logo img {
+      margin-bottom: 10px;
+    }
+    
+    nav ul {
+      flex-direction: column;
+      text-align: center;
+    }
+    
+    nav ul li {
+      margin-bottom: 10px;
+    }
+    
+    .login {
+      margin-top: 10px;
+    }
+  }
+
+
+  
+  .yellow-heading {
+    color: #FFE500;
+    font-family: Arial;
+    font-size: 66px;
+    font-weight: 700;
+    text-align: center;
+  }
+  
+  .white-heading {
+    color: white;
+    font-family: Arial;
+    font-size: 50px;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    line-height: 8.79px;
+    text-align: center;
+    margin-left: 30px;
+    text-align: center;
+  }
+
+  
+  .button-group {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .white-button {
+    background-color: white;
+    color: black;
+    padding: 18px 35px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  
+  .yellow-button {
+    background: #FFE500;
+    color: black;
+    padding: 18px 35px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  /* Media Queries for Responsiveness */
+ 
+  /* Reset default margin and padding */
+body, h1, h2, p, button {
+  margin: 0;
+  padding: 0;
+}
+
+/* Style the hero section */
+.hero {
+  background-image: url('../asset/Frame 2.png');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+/* Style the content within the hero section */
+.content {
+  max-width: 600px;
+  margin-left: 50px;
+}
+
+/* Style the white heading */
+.white-heading {
+  color: white;
+  font-size: 40px;
+  margin-bottom: 30px;
+    font-family: Arial;
+    font-weight: 700;
+  
+}
+
+/* Style the yellow heading */
+.yellow-heading {
+  color: yellow;
+  font-size: 40px;
+  margin-bottom: 20px;
+  font-family: Arial;
+    font-weight: 700;
+    margin-right:90px;
+}
+
+/* Style the paragraph */
+p {
+  margin-bottom: 30px;
+  color: white;
+  font-family: Poppins;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 36px;
+  letter-spacing: 0em;
+ 
+}
+
+/* Style the buttons */
+.buttons {
+  display: flex;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.white-button {
+  background-color: white;
+  color: black;
+  padding: 18px 35px;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.yellow-button {
+  background: #FFE500;
+  color: black;
+  padding: 18px 35px;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-container {
+  background-color: #fff;
+  width: 400px;
+  height: 60vh;
+  /* padding: 20px; */
+  border-radius: 8px;
+}
+
+.top-heading {
+  display: flex;
+  justify-content:center;
+  margin-bottom: 20px;
+  cursor: pointer;
+  background-color: #000000;
+}
+
+.img-container {
+  width: 250px;
+  height: 50px;
+  border-radius: 4px;
+  /* margin-right: 10px; */
+}
+.closeicon{
+  display: flex;
+  justify-content: end;
+  align-items: end;
+  color: #ccc;
+  font-weight: 800;
+  font-size: 32px;
+ margin-bottom: 10px;
+ margin-left: 40px;
+
+}
+
+.admin-heading {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.input-field {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-bottom: 3px solid #ccc;
+  padding-bottom: 5px;
+}
+
+.icon {
+  margin-right: 10px;
+}
+
+input[type="text"],
+input[type="password"] {
+  border: none;
+  outline: none;
+  font-size: 22px;
+  flex: 1;
+}
+
+.login-button {
+ display: flex;
+ justify-content: center;
+  background: #FFB800;
+  font-size: 22px;
+  color: #fff;
+  border: none;
+  outline: none;
+  text-align: center;
+  padding: 14px 160px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin: 30px 0px 0px 16px;
+}
+@media (max-width: 768px) {
+  .form-container {
+    background-color: #fff;
+    width: 400px;
+    height: 70vh;
+    /* padding: 20px; */
+    border-radius: 8px;
+  }
+
+}

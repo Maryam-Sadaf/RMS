@@ -1,0 +1,139 @@
+.student-component {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .button-row {
+    display: flex;
+    justify-content: left;
+    margin-bottom: 20px;
+    background: #DFDFDF;
+    padding-left:150px;
+    width: 80%;
+    height: 10vh;
+    border-radius: 5px;
+  }
+  
+  .BUTTON {
+    background: #F4F4F4;
+    color: black;
+    border: 1px solid black;
+    margin: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .student-table {
+    border-collapse: collapse;
+    width: 95%;
+    
+  }
+  
+  .student-table th,
+  .student-table td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1.5px solid #ddd;
+    border-right: 1.5px solid #ddd;
+  
+
+  }
+
+  .student-table th {
+    background-color: #f2f2f2;
+    
+  }
+  
+  .student-table tr:hover {
+    background-color: #f2f2f2;
+  }
+ 
+  
+  
+  /* .popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  } */
+  
+  #add-student-form {
+    background-color: white;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0.7, 0.5, 0.5, 0.7);
+  }
+  
+  #form-row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 15px;
+  }
+  
+  #form-field {
+    flex: 1;
+    padding: 10px;
+  }
+  
+  #form-field label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  #form-field input {
+    width: 100%;
+    padding: 8px;
+    border: 1.6px solid #aeadad;
+    border-radius: 4px;
+  }
+  
+  #form-field button {
+    background-color: #007bff;
+    background: #DFDFDF;
+    color: white; 
+    border-radius: 4px;
+    cursor: pointer;
+    border: 1 px solid black;
+  }
+    /* #submitbtn{
+      background: #DFDFDF;
+      color: #0000;
+      padding: 8px 28px;
+      border: 1px solid black;
+    
+    } */
+  
+  /* Responsiveness */
+  @media screen and (max-width: 768px) {
+    .student-table th,
+    .student-table td {
+      font-size: 14px;
+      padding: 6px;
+    }
+  
+    .student-table th:first-child,
+    .student-table td:first-child {
+      display: none;
+    }
+  
+    .button-row {
+      flex-wrap: wrap;
+    }
+  
+    .BUTTON {
+      margin-bottom: 10px;
+    }
+  
+    .popup {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+  
