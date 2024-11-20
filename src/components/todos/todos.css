@@ -1,0 +1,150 @@
+.todosContainer {
+    padding: 10px;
+  }
+  
+  .topBar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .searchContainer {
+    display: flex;
+    align-items: center;
+    background-color: #f1f1f1;
+    padding: 7px 7px;
+    border-radius: 7px;
+  }
+  
+  .icon {
+    margin-left:12px;
+    color: #666;
+    font-size: 18px;
+  }
+  
+  .searchInput {
+    border: none;
+    outline: none;
+    background: none;
+    padding: 2px;
+  }
+  
+  .createButton {
+    padding: 14px 18px;
+    background: linear-gradient( 45deg,#E91E63, #FF8F33);
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 7px;
+
+  }
+  .todosContainer {
+    padding: 20px;
+  }
+  
+  .topBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .searchContainer {
+    display: flex;
+    align-items: center;
+  }
+  
+  .searchInput {
+    padding: 5px;
+    margin-left: 6px;
+    font-size: 12px;
+    width: 150px;
+  }
+  
+  .createButton {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .todosHeading {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .todosTable {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .todosTable th, .todosTable td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .todosTable th {
+    background-color: #f2f2f2;
+  }
+  
+  .todosTable tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .todosTable td {
+    font-size: 14px;
+  }
+  
+  .statusIcons {
+    display: inline-flex;  
+    align-items: center; 
+    justify-content: flex-start;
+  }
+  
+  .editIcon, .deleteIcon {
+    cursor: pointer;
+    margin: 0 10px;
+    font-size: 16px;
+  }
+  
+  .editIcon {
+    color: #4CAF50; 
+  }
+  
+  .deleteIcon {
+    color: #F44336;  
+  }
+  
+  .editIcon:hover {
+    color: #388E3C;  
+  }
+  
+  .deleteIcon:hover {
+    color: #D32F2F; 
+  }
+  
+  @media (max-width: 768px) {
+    .todosTable th, .todosTable td {
+      padding: 8px;
+    }
+  
+    .todosTable {
+      font-size: 12px;
+    }
+  
+    .searchInput {
+      width: 150px;
+    }
+  
+    .createButton {
+      font-size: 14px;
+    }
+  }
+  

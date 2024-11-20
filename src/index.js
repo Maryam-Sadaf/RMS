@@ -6,7 +6,6 @@ import reportWebVitals from './reportWebVitals';
 // import Desktop from './components/sidebar/Desktop';
 // import Sidebar from './components/sidebar/Sidebar';
 import { BrowserRouter } from 'react-router-dom';
-import Header from './screen/Header';
 import App from './App';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

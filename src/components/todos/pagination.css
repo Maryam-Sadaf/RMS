@@ -1,0 +1,29 @@
+.paginationContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .paginationButton {
+    padding: 10px 15px;
+    margin: 0 5px;
+    /* background-color: #4CAF50; */
+    background: linear-gradient( 45deg,#E91E63, #FF8F33);
+
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .paginationButton:disabled {
+    background-color: #d3d3d3;
+    cursor: not-allowed;
+  }
+  
+  .pageNumber {
+    font-size: 16px;
+    margin: 0 10px;
+  }
+  
